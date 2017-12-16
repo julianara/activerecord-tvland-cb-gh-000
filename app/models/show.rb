@@ -3,5 +3,6 @@ class Show < ActiveRecord::Base
   has_many :actors
   
   def build_network 
+    network = Network.create()
   end
 end
